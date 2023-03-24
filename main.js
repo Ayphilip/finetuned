@@ -10,9 +10,9 @@ const networkCtx = networkCanvas.getContext("2d");
 
 const road = new Road(carCanvas.width / 2, carCanvas.width * 0.9);
 
-const start = document.getElementById('restart');
+const startsss = document.getElementById('restart');
 
-start.addEventListener('startEvent')
+startsss.addEventListener('startEvent')
 
 function startEvent(){
   location.reload()
