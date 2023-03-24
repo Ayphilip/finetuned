@@ -10,6 +10,12 @@ const networkCtx = networkCanvas.getContext("2d");
 
 const road = new Road(carCanvas.width / 2, carCanvas.width * 0.9);
 
+const start = document.getElementById('restart');
+
+start.addEventListener(()=>{
+  location.reload()
+})
+
 const N = 100;
 const cars = generateCars(N);
 const randomNumber = Math.floor(Math.random() * (3000 - 100 + 1)) + 100;
