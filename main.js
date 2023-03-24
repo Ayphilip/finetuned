@@ -12,9 +12,11 @@ const road = new Road(carCanvas.width / 2, carCanvas.width * 0.9);
 
 const start = document.getElementById('restart');
 
-start.addEventListener(()=>{
+start.addEventListener('startEvent')
+
+function startEvent(){
   location.reload()
-})
+}
 
 const N = 100;
 const cars = generateCars(N);
