@@ -15,7 +15,7 @@ const startsss = document.getElementById('restart');
 startsss.addEventListener('startEvent')
 
 function startEvent(){
-  
+  location.reload()
 }
 
 const N = 100;
